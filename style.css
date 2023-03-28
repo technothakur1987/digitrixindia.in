@@ -1,12 +1,16 @@
 html{
     scroll-behavior: smooth;
 }
+*{
+    overflow-x: hidden;
+}
 body{
     background-color: black!important;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
     overflow-x: hidden!important;
+    min-height:100vh;
 }
-#myDIV{
+#myDIV,#myDIVV{
     display:none;
 }
 
@@ -115,6 +119,18 @@ min-height:100vh;
 .indexServices .row{
     --bs-gutter-x: 0rem!important;
 }
+.servicebtn{
+    color:white;
+    border:2px solid #dc3545;
+    padding:0.25rem;
+    border-radius:5px;
+}
+.servicebtn:hover{
+    color:white;
+    border:2px solid white!important;
+    padding:0.25rem;
+    border-radius:5px;
+}
 .indexcenter-div h5{
 
     color:white;
@@ -149,7 +165,7 @@ min-height:100vh;
 /*css for about.php*/
 .aboutbanner{
     border-bottom: .5rem solid #dc3545;
-    width:100%;
+    min-width:100%;
     min-height:60vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -333,15 +349,68 @@ min-height:100vh;
 }
 
 
+/*css for dashboard*/
+.hoverdashboardbtn{
+    color:white;
+    text-decoration: none;
+    text-align:center;
+    margin: 0.75rem auto;
+    padding: 0.75rem 0.25rem;
+    border:2px solid white;
+    border-radius: 5px;
+}
+.hoverdashboardbtn:hover{
+    color:#dc3545;
+    border-color: #dc3545;
+}
+.userimage{
+    height:10rem!important;
+    border-radius:50%;
+}
+
+
+/*css for quotaion page.php*/
+ .form-check-input1 {
+    float: right;
+    margin-left:-1.5em;}
+    
+
 
 /*mediaqueries*/
 /* Medium devices (tablets, 768px and up)*/
+@media (max-width: 375px){
+    .left-navbar ul li{
+        margin-left: 0.5rem!important;
+        margin-bottom: .25rem;
+            
+    }
+    .left-navbar ul li a, .right-navbar ul li a{
+        text-decoration:none;
+        text-transform: none;
+        color:white;
+    }
+    .right-navbar ul li{
+        margin-right: 0.8rem;
+        margin-bottom:0.25rem
+    }
+    .left-navbar ul li a i, .right-navbar ul li a i{ 
+        font-size:1.5rem  
+    }
+    .navbar-hover:hover{
+      cursor: alias;
+    
+    }
+
+}
 @media (max-width: 768px) { 
     .our-clients img{
         width:60%;
     }
     .contactbanner {
         min-width:100%;
+    }
+    .contactmap iframe{
+        height:100vh;
     }
  }
 

@@ -14,31 +14,32 @@
   </head>
   <body >
     <!--navbar-->
-    <div class="container-fluid bg-danger text-white text-center pt-2 pb-0 navbar fixed-top">
+<!--navbar-->
+<div class="container-fluid bg-danger text-white text-center pt-2 pb-0 navbar fixed-top">
       <div class="right-navbar d-flex justify-content-center align-items-center">
         <ul class="list-unstyled d-flex m-auto">
-          <li class=""><a href="index.html"><i class="fa-solid fa-house "></i></a></li>
-          <li class=""><a href=""><i class="fa-solid fa-user "></i></a> </li>
+          <li class=""><a href="./index.php"><i class="fa-solid fa-house "></i></a></li>
+          <li class=""><a href="user/user_dashboard.php"><i class="fa-solid fa-user "></i></a> </li>
           <li class=""><a href="tel:8109184732"><i class="fa-solid fa-phone "></i></a></li>
         </ul>
       </div>
       <div class="left-navbar d-flex justify-content-center align-items-center">
         <ul class="list-unstyled d-flex  m-auto">
-          <li class=""><a href="https://www.youtube.com/results?search_query=motivational+story+" target="_blank"><i class="fa-brands fa-youtube "></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-instagram "></i></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-twitter "></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
-          <li class=""><a href=""index.html><i class="fa-solid fa-cart-shopping "></i></a></li>
-          <li class="navbar-hover"><a onclick="myFunction()" ><i class="fa-solid fa-bars "></i></a></li>
+          <li class="py-2"><a href="https://www.youtube.com/results?search_query=motivational+story+" target="_blank"><i class="fa-brands fa-youtube "></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-instagram "></i></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-twitter "></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
+          <li class="position-relative p-2"><a href="shopping_cart.php" ><span class="position-absolute top-0 start-0 translate-start badge rounded-circle bg-dark">0</span><i class="fa-solid fa-cart-shopping "></i></a></li>
+          <li class="navbar-hover py-2"><a onclick="myFunction()" ><i class="fa-solid fa-bars "></i></a></li>
         </ul>
         
 
       </div>
       <div class="w-100 text-start" id="myDIV">
         <ul class="list-unstyled  pt-3">
-        <a href="aboutus.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">ABOUT US</li></a>
-        <a href="certificate.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">OUR CERTIFICATES</li></a>
-        <a href="contact.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">CONTACT US</li></a>
+        <a href="./aboutus.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">ABOUT US</li></a>
+        <a href="./certificate.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">OUR CERTIFICATES</li></a>
+        <a href="./contact.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">CONTACT US</li></a>
           
         </ul>
       </div>
@@ -47,9 +48,9 @@
 
     <!--index.banner-->
     <div class="indexbanner pt-5 d-flex flex-column align-items-center justify-content-center">
-      <h1 class="text-center text-white indexbannherh1" data-aos="fade-up" data-aos-duration="2000" >BUSINESS GROWTH STARTS HERE</h1>
+      <h1 style="overflow:hidden;" class="text-center text-white indexbannherh1 " data-aos="fade-up" data-aos-duration="2000" >BUSINESS GROWTH STARTS HERE</h1>
       <h3 class="text-center text-light indexbannherh3" data-aos="fade-up" data-aos-duration="2000" >DIGITAL MARKETING AND WEB DESIGN</h3>
-      <a href="contact.html" class="btn btn-danger w-25 text-white py-3 mt-2" data-aos="fade-up" data-aos-duration="2000" >LET'S TALK DIGITAL</a>
+      <a href="contact.php" class="btn btn-danger w-25 text-white py-3 mt-2" data-aos="fade-up" data-aos-duration="2000" >LET'S TALK DIGITAL</a>
     </div>
 
    <!--text-info-->
@@ -67,57 +68,65 @@
     <p class="text-center text-white" data-aos="fade-up" data-aos-duration="2000">Our full-service digital marketing agency offers affordable and effective digital marketing plans. We work to deliver improved rankings, increased traffic and, in turn, more business.</p>
     <div class="row">
       <div class="col-md-4 p-2 d-flex justify-content-center align-items-center" data-aos="zoom-in-up" data-aos-duration="3000">
-       <a href="search_engine_optimization.html" class="text-decoration-none"> <div class="indexcenter-div indexcenter-div1 p-3">
+       <a href="search_engine_optimization.php" class="text-decoration-none"> <div class="indexcenter-div indexcenter-div1 p-3">
           <h5><i class="fa-solid fa-magnifying-glass"></i> Search Engine Optimization</h5>
           <p>We help you improve your Google ranking and increase your organic (non-paid) website traffic. SEO is more than just incorporating keywords and we can help to optimize all elements.</p>
+          <a href="search_engine_optimization.php" class="text-decoration-none servicebtn">Read More <i class="fa-solid fa-angles-right"></i></a>
 
         </div></a>
       </div>
       <div class="col-md-4 p-2 d-flex justify-content-center align-items-center" data-aos="zoom-in-up" data-aos-duration="3000">
-      <a href="search_engine_advertising.html" class="text-decoration-none">
+      <a href="search_engine_advertising.php" class="text-decoration-none">
         <div class="indexcenter-div p-3 indexcenter-div2">
           <h5><i class="fa-solid fa-arrow-up"></i> Search Engine Advertising</h5>
           <p>Search engine advertising, also known as pay-per-click advertising, helps you reach new customers and guarantees a consistent traffic flow to your website.  </p>
+          <a href="search_engine_advertising.php" class="text-decoration-none servicebtn">Read More <i class="fa-solid fa-angles-right"></i></a>
 
         </div></a>
       </div>
       <div class="col-md-4 p-2 d-flex justify-content-center align-items-center" data-aos="zoom-in-up" data-aos-duration="3000">
-      <a href="web_develop.html" class="text-decoration-none">
+      <a href="web_develop.php" class="text-decoration-none">
       <div class="indexcenter-div p-3 indexcenter-div3">
           <h5><i class="fa-solid fa-mars-stroke-up"></i> Web Development & Design</h5>
-          <p>Websites are the essence of your online presence. We will create a functional website that is customized for your business and drives results. All of our websites include SEO, and lead generation tools.</p>
+          <p>Websites are the essence of your online presence. We will create a functional website that is customized for your business and drives results. All of our websites include SEO, and lead generation tools.
+            
+          </p>
+          <a href="web_develop.php" class="text-decoration-none servicebtn">Read More <i class="fa-solid fa-angles-right"></i></a>
 
         </div></a>
       </div>
       <div class="col-md-4 p-2 d-flex justify-content-center align-items-center" data-aos="zoom-in-down" data-aos-duration="3000">
-      <a href="social_media_marketing.html" class="text-decoration-none">  
+      <a href="social_media_marketing.php" class="text-decoration-none">  
       <div class="indexcenter-div p-3 indexcenter-div4">
           <h5><i class="fa-solid fa-thumbs-up"></i> Social Media Marketing</h5>
           <p>We help you with social media management and advertising to help you grow your business and reach new clients.</p>
+          <a href="social_media_marketing.php" class="text-decoration-none servicebtn">Read More <i class="fa-solid fa-angles-right"></i></a>
 
         </div></a>
       </div>
       <div class="col-md-4 p-2 d-flex justify-content-center align-items-center" data-aos="zoom-in-down" data-aos-duration="3000">
-      <a href="content_marketing.html" class="text-decoration-none">  
+      <a href="content_marketing.php" class="text-decoration-none">  
       <div class="indexcenter-div p-3 indexcenter-div5">
           <h5><i class="fa-solid fa-file"></i> Content Marketing</h5>
           <p>Content marketing helps you increase online visibility, traffic and brand awareness. We offer effective SEO-copywriting that resonates with your target audience.</p>
+          <a href="content_marketing.php" class="text-decoration-none servicebtn">Read More <i class="fa-solid fa-angles-right"></i></a>
 
         </div></a>
       </div>
       <div class="col-md-4 p-2 d-flex justify-content-center align-items-center" data-aos="zoom-in-down" data-aos-duration="3000">
-      <a href="digi_marketing_strategy.html" class="text-decoration-none">  
+      <a href="digi_marketing_strategy.php" class="text-decoration-none">  
       <div class="indexcenter-div p-3 indexcenter-div6">
           <h5><i class="fa-solid fa-lightbulb"></i> Digital Marketing Strategy</h5>
           <p>Get your own digital marketing strategy built from scratch. Schedule a free consultation to get started.</p>
+          <a href="digi_marketing_strategy.php" class="text-decoration-none servicebtn">Read More <i class="fa-solid fa-angles-right"></i></a>
 
         </div></a>
       </div>
 
 
     </div>
-    <div class="d-flex justify-content-center align-items-center">
-    <a href="mailto:someone@example.com" class="btn btn-danger w-25 text-white py-3 mt-2 ms-auto me-auto" data-aos="fade-up" data-aos-duration="2000" ><i class="fa-brands fa-mailchimp"></i> LET'S WORK TOGETHER</a>
+    <div class="d-flex justify-content-center align-items-center" style="overflow:hidden;">
+    <a href="mailto:someone@example.com" class="btn btn-danger w-25 text-white py-3 mt-2 ms-auto me-auto text-wrap  "  data-aos="fade-up" data-aos-duration="2000"  style="overflow:hidden;"><i class="fa-brands fa-mailchimp"></i> LET'S WORK TOGETHER</a>
     </div>
    </div> 
 
@@ -136,7 +145,7 @@
   <!--our clients-->
   <div class="our-clients pt-3 pb-3" >
     <h3 class="text-center text-white" data-aos="fade-in" data-aos-duration="3000">Our Clients</h3>
-    <div class="row" data-aos="zoom-in" data-aos-duration="3000">
+    <div class="row" data-aos="zoom-in" data-aos-duration="3000"style="overflow:hidden;">
       <div class="col-md-2 mb-3 text-center p-2 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="3000"><div class=" text-center"><img src="images/oc1.png" class="img-fluid"></div></div>
       <div class="col-md-2 mb-3 text-center p-2 d-flex justify-content-center align-items-center" data-aos="fade-down" data-aos-duration="3000"><div class=" text-center"><img src="images/oc8.png" class="img-fluid"></div></div>
       <div class="col-md-2 mb-3 text-center p-2 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-duration="3000"><div class=" text-center"><img src="images/oc3.png" class="img-fluid"></div></div>
@@ -163,10 +172,10 @@
           Sections
         </h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-          <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 text-muted">About Us</a></li>
-          <li class="nav-item mb-2"><a href="certificate.html" class="nav-link p-0 text-muted">Our Certificates</a></li>
-          <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact Us</a></li>
+          <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-muted">Home</a></li>
+          <li class="nav-item mb-2"><a href="aboutus.php" class="nav-link p-0 text-muted">About Us</a></li>
+          <li class="nav-item mb-2"><a href="certificate.php" class="nav-link p-0 text-muted">Our Certificates</a></li>
+          <li class="nav-item mb-2"><a href="contact.php" class="nav-link p-0 text-muted">Contact Us</a></li>
 
         </ul>
       </div>
@@ -174,11 +183,11 @@
       <div class="col-6 col-md-2 mb-3">
         <h5 class="text-danger" >Important Links:</h5>
         <ul class="nav flex-column">
-          <li class="nav-item mb-2"><a href="search_engine_optimization.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-magnifying-glass"></i> seo</a></li>
-          <li class="nav-item mb-2"><a href="search_engine_advertising.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-arrow-up"></i> sem</a></li>
-          <li class="nav-item mb-2"><a href="web_develop.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-mars-stroke-up"></i> web-dev</a></li>
-          <li class="nav-item mb-2"><a href="digi_marketing_strategy.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-thumbs-up"></i> digi-marketing</a></li>
-          <li class="nav-item mb-2"><a href="content_marketing.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-file"></i> con.-marketing</a></li>
+          <li class="nav-item mb-2"><a href="search_engine_optimization.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-magnifying-glass"></i> seo</a></li>
+          <li class="nav-item mb-2"><a href="search_engine_advertising.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-arrow-up"></i> sem</a></li>
+          <li class="nav-item mb-2"><a href="web_develop.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-mars-stroke-up"></i> web-dev</a></li>
+          <li class="nav-item mb-2"><a href="digi_marketing_strategy.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-thumbs-up"></i> digi-marketing</a></li>
+          <li class="nav-item mb-2"><a href="content_marketing.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-file"></i> con.-marketing</a></li>
           
         </ul>
       </div>

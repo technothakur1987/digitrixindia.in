@@ -16,38 +16,39 @@
 
   <!--https://github.com/michalsnik/aos-->
     <!--navbar-->
+    <!--navbar-->
     <div class="container-fluid bg-danger text-white text-center pt-2 pb-0 navbar fixed-top">
       <div class="right-navbar d-flex justify-content-center align-items-center">
         <ul class="list-unstyled d-flex m-auto">
-          <li class=""><a href="index.html"><i class="fa-solid fa-house "></i></a></li>
-          <li class=""><a href=""><i class="fa-solid fa-user "></i></a> </li>
+          <li class=""><a href="./index.php"><i class="fa-solid fa-house "></i></a></li>
+          <li class=""><a href="user/user_dashboard.php"><i class="fa-solid fa-user "></i></a> </li>
           <li class=""><a href="tel:8109184732"><i class="fa-solid fa-phone "></i></a></li>
         </ul>
       </div>
       <div class="left-navbar d-flex justify-content-center align-items-center">
         <ul class="list-unstyled d-flex  m-auto">
-          <li class=""><a href="https://www.youtube.com/results?search_query=motivational+story+" target="_blank"><i class="fa-brands fa-youtube "></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-instagram "></i></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-twitter "></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
-          <li class=""><a href=""><i class="fa-solid fa-cart-shopping "></i></a></li>
-          <li class="navbar-hover"><a onclick="myFunction()" ><i class="fa-solid fa-bars "></i></a></li>
+          <li class="py-2"><a href="https://www.youtube.com/results?search_query=motivational+story+" target="_blank"><i class="fa-brands fa-youtube "></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-instagram "></i></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-twitter "></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
+          <li class="position-relative p-2"><a href="shopping_cart.php" ><span class="position-absolute top-0 start-0 translate-start badge rounded-circle bg-dark">0</span><i class="fa-solid fa-cart-shopping "></i></a></li>
+          <li class="navbar-hover py-2"><a onclick="myFunction()" ><i class="fa-solid fa-bars "></i></a></li>
         </ul>
         
 
       </div>
       <div class="w-100 text-start" id="myDIV">
         <ul class="list-unstyled  pt-3">
-        <a href="aboutus.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">ABOUT US</li></a>
-        <a href="certificate.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">OUR CERTIFICATES</li></a>
-        <a href="contact.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">CONTACT US</li></a>
+        <a href="./aboutus.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">ABOUT US</li></a>
+        <a href="./certificate.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">OUR CERTIFICATES</li></a>
+        <a href="./contact.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">CONTACT US</li></a>
           
         </ul>
       </div>
     </div>
    
     <div class="smmbanner d-flex flex-column align-items-center justify-content-center">
-      <h3 data-aos="zoom-out-up text-center" data-aos-duration="2000">SOCIAL MEDIA MARKETING</h3>
+      <h3 class="text-center" data-aos="zoom-out-up " data-aos-duration="2000">SOCIAL MEDIA MARKETING</h3>
       <p class="text-white text-center" data-aos="zoom-out-down" data-aos-duration="2000">Engage with your customers, watch your social following grow, and increase social media results.</p>
     </div>
 
@@ -74,7 +75,7 @@ Therefore, we will segment your audience to ensure the right ads are displayed t
              
         </div></div>
 
-        <div class="col-md-3 mb-3 d-flex justify-content-center align-items-center p-2" data-aos="zoom-in" data-aos-duration="2000" ><div>
+        <div class="col-md-3 mb-md-3 d-flex justify-content-center align-items-center p-2" data-aos="zoom-in" data-aos-duration="2000" ><div>
           <h3  class="text-white text-center"><i class="fa-solid fa-bolt text-danger"></i> Testing & Optimization</h3>
           <p  class="text-white text-center">Our work is never done. Once we have implemented a paid social strategy, we will test the advertisements and continue to make changes in order to optimize results.</p>
              
@@ -96,7 +97,7 @@ Therefore, we will segment your audience to ensure the right ads are displayed t
       <p class="text-white" data-aos="slide-left" data-aos-duration="2200">Secondly, we will create various advertisements, testing with several messages, images, and targeting audiences. Once the ads are launched we continue optimizing them until we find the best combination.</p>
       <p class="text-white fw-bold" data-aos="slide-left" data-aos-duration="2200">Step 3 Results & Growth</p>
       <p class="text-white" data-aos="slide-left" data-aos-duration="2250">The optimizations we make will improve your paid social results. You will see an increase in your social media following, brand awareness, and conversions. This results in making more money.</p>
-      <a href="contact.html" class="btn btn-danger" data-aos="slide-left" data-aos-duration="2250">GET STARTED</a>
+      <a href="contact.php" class="btn btn-danger" data-aos="slide-left" data-aos-duration="2250">GET STARTED</a>
     </div>
 
     <hr class="bg-danger border border-danger" data-aos="slide-right" data-aos-duration="2100" >
@@ -118,10 +119,10 @@ Therefore, we will segment your audience to ensure the right ads are displayed t
               Sections
             </h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-              <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 text-muted">About Us</a></li>
-              <li class="nav-item mb-2"><a href="certificate.html" class="nav-link p-0 text-muted">Our Certificates</a></li>
-              <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact Us</a></li>
+              <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-muted">Home</a></li>
+              <li class="nav-item mb-2"><a href="aboutus.php" class="nav-link p-0 text-muted">About Us</a></li>
+              <li class="nav-item mb-2"><a href="certificate.php" class="nav-link p-0 text-muted">Our Certificates</a></li>
+              <li class="nav-item mb-2"><a href="contact.php" class="nav-link p-0 text-muted">Contact Us</a></li>
     
             </ul>
           </div>
@@ -129,11 +130,11 @@ Therefore, we will segment your audience to ensure the right ads are displayed t
           <div class="col-6 col-md-2 mb-3">
             <h5 class="text-danger" >Important Links:</h5>
             <ul class="nav flex-column">
-              <li class="nav-item mb-2"><a href="search_engine_optimization.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-magnifying-glass"></i> seo</a></li>
-              <li class="nav-item mb-2"><a href="search_engine_advertising.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-arrow-up"></i> sem</a></li>
-              <li class="nav-item mb-2"><a href="web_develop.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-mars-stroke-up"></i> web-dev</a></li>
-              <li class="nav-item mb-2"><a href="digi_marketing_strategy.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-thumbs-up"></i> digi-marketing</a></li>
-              <li class="nav-item mb-2"><a href="content_marketing.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-file"></i> con.-marketing</a></li>
+              <li class="nav-item mb-2"><a href="search_engine_optimization.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-magnifying-glass"></i> seo</a></li>
+              <li class="nav-item mb-2"><a href="search_engine_advertising.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-arrow-up"></i> sem</a></li>
+              <li class="nav-item mb-2"><a href="web_develop.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-mars-stroke-up"></i> web-dev</a></li>
+              <li class="nav-item mb-2"><a href="digi_marketing_strategy.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-thumbs-up"></i> digi-marketing</a></li>
+              <li class="nav-item mb-2"><a href="content_marketing.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-file"></i> con.-marketing</a></li>
               
             </ul>
       </div>

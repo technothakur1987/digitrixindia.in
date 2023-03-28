@@ -10,37 +10,38 @@
     <script src="https://kit.fontawesome.com/e357c704ca.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
-    <title> contact--Digitrix India</title>
+    <title> Quotation--Digitrix India</title>
   </head>
   <body >
 
   <!--https://github.com/michalsnik/aos-->
     <!--navbar-->
+    <!--navbar-->
     <div class="container-fluid bg-danger text-white text-center pt-2 pb-0 navbar fixed-top">
       <div class="right-navbar d-flex justify-content-center align-items-center">
         <ul class="list-unstyled d-flex m-auto">
-          <li class=""><a href="index.html"><i class="fa-solid fa-house "></i></a></li>
-          <li class=""><a href=""><i class="fa-solid fa-user "></i></a> </li>
+          <li class=""><a href="./index.php"><i class="fa-solid fa-house "></i></a></li>
+          <li class=""><a href="user/user_dashboard.php"><i class="fa-solid fa-user "></i></a> </li>
           <li class=""><a href="tel:8109184732"><i class="fa-solid fa-phone "></i></a></li>
         </ul>
       </div>
       <div class="left-navbar d-flex justify-content-center align-items-center">
         <ul class="list-unstyled d-flex  m-auto">
-          <li class=""><a href="https://www.youtube.com/results?search_query=motivational+story+" target="_blank"><i class="fa-brands fa-youtube "></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-instagram "></i></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-twitter "></i></a></li>
-          <li class=""><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
-          <li class=""><a href=""index.html><i class="fa-solid fa-cart-shopping "></i></a></li>
-          <li class="navbar-hover"><a onclick="myFunction()" ><i class="fa-solid fa-bars "></i></a></li>
+          <li class="py-2"><a href="https://www.youtube.com/results?search_query=motivational+story+" target="_blank"><i class="fa-brands fa-youtube "></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-instagram "></i></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-twitter "></i></a></li>
+          <li class="py-2"><a href="https://www.instagram.com/thakursingh622/" target="_blank"><i class="fa-brands fa-facebook "></i></a></li>
+          <li class="position-relative p-2"><a href="shopping_cart.php" ><span class="position-absolute top-0 start-0 translate-start badge rounded-circle bg-dark">0</span><i class="fa-solid fa-cart-shopping "></i></a></li>
+          <li class="navbar-hover py-2"><a onclick="myFunction()" ><i class="fa-solid fa-bars "></i></a></li>
         </ul>
         
 
       </div>
       <div class="w-100 text-start" id="myDIV">
         <ul class="list-unstyled  pt-3">
-        <a href="aboutus.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">ABOUT US</li></a>
-        <a href="certificate.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">OUR CERTIFICATES</li></a>
-        <a href="contact.html" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">CONTACT US</li></a>
+        <a href="./aboutus.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">ABOUT US</li></a>
+        <a href="./certificate.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">OUR CERTIFICATES</li></a>
+        <a href="./contact.php" class="text-decoration-none text-white"><li class="py-2 ps-2 mydivhover-li fw-bold">CONTACT US</li></a>
           
         </ul>
       </div>
@@ -49,23 +50,23 @@
     <div class="contactbanner d-flex flex-column align-items-center justify-content-center">
       <h3 data-aos="fade-down" data-aos-duration="2000">Contact Us</h3>
       <p class="text-white text-center" data-aos="fade-up" data-aos-duration="2000">Already know what you want? Get an instant quote for your project!</p>
-      <button class="btn btn-danger" data-aos="fade-up" data-aos-duration="2000">GET QUOTES...</button> 
+      <a  href="./user/quotation_page.php" class="btn btn-danger" data-aos="fade-up" data-aos-duration="2000">GET QUOTES...</a> 
     </div>
     <hr class="bg-danger border border-danger" data-aos="slide-left" data-aos-duration="2800" data-aos-anchor-placement="top-center" style="overflow-x: hidden!important;">
     <hr class="bg-danger border border-danger" data-aos="slide-left" data-aos-duration="2850" data-aos-anchor-placement="top-center" style="overflow-x: hidden;">
     <hr class="bg-danger border border-danger" data-aos="slide-right" data-aos-duration="2900" data-aos-anchor-placement="top-center" style="overflow-x: hidden;">
     <hr class="bg-danger border border-danger" data-aos="slide-right" data-aos-duration="2950" data-aos-anchor-placement="top-center" style="overflow-x: hidden;">
 <!--contacttext-->
-<div class="contacttext" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2800">
-  <h3 class="text-danger text-center" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2800">Whether you are looking for help with strategy, web design, 
+<div class="contacttext" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2800" style="overflow:hidden;">
+  <h3 class="text-danger text-center" data-aos="zoom-in-up" data-aos-anchor-placement="top-center" data-aos-duration="2800" style="overflow:hidden;">Whether you are looking for help with strategy, web design, 
     search engine optimization, or something else, we would love to help. 
     Send us a message and we will get back to you as soon as possible.</h3>
 
 </div>
 
-<div class="container mt-5 mb-5">
+<div class="container mt-5 mb-5 contactmap">
   <div class="row">
-    <div class="col-md-6 p-3" data-aos="slide-left"  data-aos-duration="2800">
+    <div class="col-md-6 p-3" data-aos="slide-left"  data-aos-duration="2800" style="overflow-y:hidden;">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14883.490446282185!2d79.09839529999999!3d21.157467299999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1672464365264!5m2!1sen!2sin" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <div class="col-md-6 p-3" data-aos="slide-right"  data-aos-duration="2800">
@@ -74,7 +75,7 @@
         <input class="w-100" placeholder="Enter Your Name" type="text" >
         <input class="w-100" placeholder="Enter Your Email Id" type="email">
         <textarea class="w-100" placeholder="Message Here !" rows="6"></textarea>
-        <div class="d-flex justify-content-center align-items-center">
+        <div class="d-flex justify-content-center align-items-center" style="overflow:hidden;">
           <button class="btn btn-danger" data-aos="slide-up" data-aos-duration="2800">SUBMIT MESSAGE</button>
         </div>
       </form>
@@ -105,10 +106,10 @@
         Sections
       </h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="index.html" class="nav-link p-0 text-muted">Home</a></li>
-        <li class="nav-item mb-2"><a href="aboutus.html" class="nav-link p-0 text-muted">About Us</a></li>
-        <li class="nav-item mb-2"><a href="certificate.html" class="nav-link p-0 text-muted">Our Certificates</a></li>
-        <li class="nav-item mb-2"><a href="contact.html" class="nav-link p-0 text-muted">Contact Us</a></li>
+        <li class="nav-item mb-2"><a href="index.php" class="nav-link p-0 text-muted">Home</a></li>
+        <li class="nav-item mb-2"><a href="aboutus.php" class="nav-link p-0 text-muted">About Us</a></li>
+        <li class="nav-item mb-2"><a href="certificate.php" class="nav-link p-0 text-muted">Our Certificates</a></li>
+        <li class="nav-item mb-2"><a href="contact.php" class="nav-link p-0 text-muted">Contact Us</a></li>
 
       </ul>
     </div>
@@ -116,11 +117,11 @@
     <div class="col-6 col-md-2 mb-3">
       <h5 class="text-danger" >Important Links:</h5>
       <ul class="nav flex-column">
-        <li class="nav-item mb-2"><a href="search_engine_optimization.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-magnifying-glass"></i> seo</a></li>
-        <li class="nav-item mb-2"><a href="search_engine_advertising.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-arrow-up"></i> sem</a></li>
-        <li class="nav-item mb-2"><a href="web_develop.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-mars-stroke-up"></i> web-dev</a></li>
-        <li class="nav-item mb-2"><a href="digi_marketing_strategy.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-thumbs-up"></i> digi-marketing</a></li>
-        <li class="nav-item mb-2"><a href="content_marketing.html" class="nav-link p-0 text-muted"><i class="fa-solid fa-file"></i> con.-marketing</a></li>
+        <li class="nav-item mb-2"><a href="search_engine_optimization.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-magnifying-glass"></i> seo</a></li>
+        <li class="nav-item mb-2"><a href="search_engine_advertising.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-arrow-up"></i> sem</a></li>
+        <li class="nav-item mb-2"><a href="web_develop.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-mars-stroke-up"></i> web-dev</a></li>
+        <li class="nav-item mb-2"><a href="digi_marketing_strategy.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-thumbs-up"></i> digi-marketing</a></li>
+        <li class="nav-item mb-2"><a href="content_marketing.php" class="nav-link p-0 text-muted"><i class="fa-solid fa-file"></i> con.-marketing</a></li>
         
       </ul>
 </div>
